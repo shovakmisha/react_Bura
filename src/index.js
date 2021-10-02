@@ -3,6 +3,7 @@ import ReactDom from 'react-dom';
 
 import AppHeader from "./components/app-header";
 import SearchPanel from "./components/search-panel";
+import ItemStatusFilter from "./components/item-status-filter";
 import TodoList from "./components/todo-list";
 
 const App = () => {
@@ -15,8 +16,9 @@ const App = () => {
 
   return (
       <div>
-          <AppHeader />
+          <AppHeader toDo='1' done="3" />
           <SearchPanel />
+          <ItemStatusFilter />
           <TodoList todos={todoData}/>
       </div>
   );
