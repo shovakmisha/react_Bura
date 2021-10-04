@@ -10,3 +10,8 @@
     font-size: 1.2rem;
     color: gray;
 }
+
+.search-panel {
+    display: flex;
+    margin: 10px 0;
+}
