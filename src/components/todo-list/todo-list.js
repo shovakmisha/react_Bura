@@ -15,7 +15,7 @@ const TodoList = ({todos}) => {
 
                     return (
                         <li key={id} className="list-group-item">
-                            {/*<TodoListItem label={items.label} important={items.important} />*/}
+                            {/*<TodoListItem label={items.label} important={items.important} /> Тобто в JSX якщо свойство обєкта рівне його значенню, то можна просто розвернути його */}
                             <TodoListItem {...items} />
                         </li>
                     );
