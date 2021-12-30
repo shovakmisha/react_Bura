@@ -1,0 +1,13 @@
+.add-item {
+    display: flex;
+}
+
+.add-item__input {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.add-item__button {
+    padding-left: 20px;
+    padding-right: 20px;
+}
